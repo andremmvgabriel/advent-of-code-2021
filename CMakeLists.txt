@@ -14,3 +14,4 @@ set (CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_HOME_DIRECTORY}/lib)
 INCLUDE_DIRECTORIES ( include )
 
 # Days challenges
+add_subdirectory(day_01)
