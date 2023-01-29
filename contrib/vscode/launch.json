@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Test",
+            "type": "gdb",
+            "request": "launch",
+            "target": "bin/examples/main3.example",
+            "cwd": "${workspaceFolder}",
+            "valuesFormatting": "prettyPrinters",
+            "preLaunchTask": ""
+        }
+    ]
+}

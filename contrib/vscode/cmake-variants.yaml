@@ -1,0 +1,12 @@
+buildType:
+  default: debug
+  description: Build Package
+  choices:
+    debug:
+      short: Debug
+      long: "Build project in debug mode."
+      buildType: Debug
+    release:
+      short: Release
+      long: "Build project in release mode."
+      buildType: Release

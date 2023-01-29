@@ -1,0 +1,20 @@
+{
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "/bin/bash",
+            "icon": "terminal-bash"
+        }
+    },
+
+    "editor.inlayHints.enabled": "offUnlessPressed",
+
+    // Debugger lldc
+
+    "cmake.sourceDirectory": "${workspaceFolder}",
+    // "cmake.configureSettings": {}
+
+    // CLang
+    "clangd.arguments": [
+        "--header-insertion=never"
+    ]
+}

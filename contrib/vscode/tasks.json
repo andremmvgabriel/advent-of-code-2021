@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build all",
+            "type": "shell",
+            "command": "mkdir -p ${workspaceFolder}/build",
+            "problemMatcher": []
+        }
+    ]
+}
