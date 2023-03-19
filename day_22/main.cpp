@@ -40,17 +40,17 @@ public:
         std::vector<std::string> xyz = string_split(raw_data, ",");
 
         // X parsing
-        std::vector<std::string> x_parts = string_split(std::string(xyz[0].begin() + 2, xyz[0].end()), "..");
+        std::vector<std::string> x_parts = string_split(xyz[0].substr(2), "..");
         x_range[0] = std::stoi(x_parts[0]);
         x_range[1] = std::stoi(x_parts[1]);
 
         // Y parsing
-        std::vector<std::string> y_parts = string_split(std::string(xyz[1].begin() + 2, xyz[1].end()), "..");
+        std::vector<std::string> y_parts = string_split(xyz[1].substr(2), "..");
         y_range[0] = std::stoi(y_parts[0]);
         y_range[1] = std::stoi(y_parts[1]);
 
         // Z parsing
-        std::vector<std::string> z_parts = string_split(std::string(xyz[2].begin() + 2, xyz[2].end()), "..");
+        std::vector<std::string> z_parts = string_split(xyz[2].substr(2), "..");
         z_range[0] = std::stoi(z_parts[0]);
         z_range[1] = std::stoi(z_parts[1]);
     }
